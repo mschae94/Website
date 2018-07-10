@@ -1,0 +1,37 @@
+#side-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+#sidebar-container {
+  max-height: 100vh; /* not min-height for mCustomScrollbar */
+  background-color: #333;
+  padding: 0;
+}
+.sidebar-expanded {
+  width: 300px;
+}
+.sidebar-collapsed {
+  width: 60px;
+}
+#sidebar-container .list-group a {
+  height: 50px;
+  color: white;
+}
+.sidebar-separator {
+  background-color: #333;
+  height: 10px;
+}
+.card {
+  background: #333;
+}
+@font-face {
+  font-family: roboticFont;
+  src: url(disposabledroid-bb/disposabledroidbb_bld.ttf);
+}
+div .card-body p {
+  font-family: roboticFont;
+}
+div .card-body h4 {
+  font-family: roboticFont;
+  font-weight: bold;
+}

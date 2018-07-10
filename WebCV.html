@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Personal website">
+		<meta name="author" content="Miung-Seong Matthew Chae">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="cv">
+		<!--<meta http-equiv="refresh" content="60">-->
+		<title>CV</title>
+		<!-- Bootstrap css -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<!-- scrollbar -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<a class="navbar-brand" href="#">
+    		<img src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    		<span class="menu-collapsed">MC</span>
+  		</a>
+  		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+    		<ul class="navbar-nav">
+      		<li class="nav-item active">
+        		<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      		</li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="#">Features</a>
+      		</li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="#">Pricing</a>
+      		</li>
+      <!-- to keep sidebar menus for smaller devices -->
+      		<li class="nav-item dropdown d-sm-block d-md-none">
+   					<a class="nav-link dropdown-toggle" href="#" id="smallerscreenmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+   					<div class="dropdown-menu" aria-labelledby="smallerscreenmenu">
+       				<a class="dropdown-item" href="#section1">Profile</a>
+       				<a class="dropdown-item" href="#section2">Education</a>
+       				<a class="dropdown-item" href="#section3">Work Experience</a>
+				      <a class="dropdown-item" href="#section4">Skills</a>
+							<a class="dropdown-item" href="#section5">Activities</a>
+							<a class="dropdown-item" href="#section6">Others</a>
+
+				   	</div>
+				 	</li>
+				 <!-- Smaller devices menu END -->
+				</ul>
+			</div>
+		</nav>
+		<!-- NavBar END -->
+		<!-- side navbar -->
+		<div class="row" id="side-row">
+			<nav id="sidebar-container" class="sidebar-expanded d-none d-md-block sticky-top">
+				<ul class="list-group">
+					<a href="#" data-toggle="sidebar-collapse" class="bg-dark list-group-item list-group-item-action d-flex align-items-center">
+						<div class="d-flex w-100 justify-content-start align-items-center">
+							<span id="collapse-icon" class="fa fa-2x mr-3"></span>
+							<span id="collapse-text" class="menu-collapsed">Collapse Menus</span>
+						</div>
+					</a>
+					<!-- Simple profile card -->
+					<div class="card">
+						<!-- Android img -->
+						<svg aria-hidden="true" data-prefix="fab" data-icon="android" class="fa-android fa-w-14" style="width:50%; margin-left: auto; margin-right: auto; display:block;"role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M89.6 204.5v115.8c0 15.4-12.1 27.7-27.5 27.7-15.3 0-30.1-12.4-30.1-27.7V204.5c0-15.1 14.8-27.5 30.1-27.5 15.1 0 27.5 12.4 27.5 27.5zm10.8 157c0 16.4 13.2 29.6 29.6 29.6h19.9l.3 61.1c0 36.9 55.2 36.6 55.2 0v-61.1h37.2v61.1c0 36.7 55.5 36.8 55.5 0v-61.1h20.2c16.2 0 29.4-13.2 29.4-29.6V182.1H100.4v179.4zm248-189.1H99.3c0-42.8 25.6-80 63.6-99.4l-19.1-35.3c-2.8-4.9 4.3-8 6.7-3.8l19.4 35.6c34.9-15.5 75-14.7 108.3 0L297.5 34c2.5-4.3 9.5-1.1 6.7 3.8L285.1 73c37.7 19.4 63.3 56.6 63.3 99.4zm-170.7-55.5c0-5.7-4.6-10.5-10.5-10.5-5.7 0-10.2 4.8-10.2 10.5s4.6 10.5 10.2 10.5c5.9 0 10.5-4.8 10.5-10.5zm113.4 0c0-5.7-4.6-10.5-10.2-10.5-5.9 0-10.5 4.8-10.5 10.5s4.6 10.5 10.5 10.5c5.6 0 10.2-4.8 10.2-10.5zm94.8 60.1c-15.1 0-27.5 12.1-27.5 27.5v115.8c0 15.4 12.4 27.7 27.5 27.7 15.4 0 30.1-12.4 30.1-27.7V204.5c0-15.4-14.8-27.5-30.1-27.5z"></path></svg>
+						<!-- <img class="card-img-top" src="#" alt="Card image" style="width:100%"> -->
+						<div class="card-body">
+							<h4 class="card-title">Matthew Chae</h4>
+							<p class="card-text">ID: Graduate</br>Password: Developer</p>
+						</div>
+					</div>
+					<!-- sidenav for info starts here -->
+					<!-- starting with separator between card and menus -->
+					<li class="list-group-item sidebar-separator menu-collapsed"></li>
+					<!-- menus -->
+					<a href="#section1" class="bg-dark list-group-item list-group-item-action">
+						<div class="d-flex w-100 justify-content-start align-items-center">
+							<span class="fas fa-address-card fa-fw mr-3"></span>
+							<span class="menu-collapsed">Profile</span>
+						</div>
+					</a>
+					<a href="#section2" class="bg-dark list-group-item list-group-item-action">
+						<div class="d-flex w-100 justify-content-start align-items-center">
+							<span class="fas fa-graduation-cap fa-fw mr-3"></span>
+							<span class="menu-collapsed">Education</span>
+						</div>
+					</a>
+					<a href="#section3" class="bg-dark list-group-item list-group-item-action">
+						<div class="d-flex w-100 justify-content-start align-items-center">
+							<span class="fas fa-briefcase fa-fw mr-3"></span>
+							<span class="menu-collapsed">Work Experience</span>
+						</div>
+					</a>
+					<a href="#section4" class="bg-dark list-group-item list-group-item-action">
+						<div class="d-flex w-100 justify-content-start align-items-center">
+							<span class="fas fa-code fa-fw mr-3"></span>
+							<span class="menu-collapsed">Skills</span>
+						</div>
+					</a>
+					<a href="#section5" class="bg-dark list-group-item list-group-item-action">
+						<div class="d-flex w-100 justify-content-start align-items-center">
+							<span class="fas fa-signature fa-fw mr-3"></span>
+							<span class="menu-collapsed">Activities</span>
+						</div>
+					</a>
+					<a href="#section6" class="bg-dark list-group-item list-group-item-action">
+						<div class="d-flex w-100 justify-content-start align-items-center">
+							<span class="fas fa-tasks fa-fw mr-3"></span>
+							<span class="menu-collapsed">Others</span>
+						</div>
+					</a>
+					<li class="list-group-item sidebar-separator menu-collapsed"></li>
+					<!-- collapsed function for menus -->
+				</ul>
+			</nav>
+			<div class="col">
+				<div class="jumbotron" id="section1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="jumbotron" id="section2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="jumbotron" id="section3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="jumbotron" id="section4">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="jumbotron" id="section5">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="jumbotron" id="section6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+		</div>
+		<footer style="background-color: #343a40; color: white;">
+			<div class="container">
+				<br>
+				<div class="row"> <!-- row has space to put 12 col-sm -->
+					<div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2018</h5><h5>Matthew Chae</h5>
+				</div>
+				<div class="col-sm-4"><h4 style="text-align: center;">Navigation</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item">About</a>
+						<a href="#" class="list-group-item">Education&work</a>
+						<a href="#" class="list-group-item">Publication</a>
+					</div>
+		</footer>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script>
+		// Collapse/Expand icon
+		$('#collapse-icon').addClass('fa-angle-double-left');
+
+		$('document').ready(function() {
+				$('#sidebar-container').mCustomScrollbar({
+					theme: "minimal"
+				});
+				// Hide submenus
+				$('#side-row').collapse('hide');
+
+				// Collapse click
+				$('[data-toggle=sidebar-collapse]').click(function() {
+						SidebarCollapse();
+				});
+			});
+				function SidebarCollapse () {
+						$('.card').toggleClass('d-none');
+						$('.menu-collapsed').toggleClass('d-none');
+						$('.sidebar-submenu').toggleClass('d-none');
+						$('.submenu-icon').toggleClass('d-none');
+						$('#sidebar-container').toggleClass('sidebar-expanded sidebar-collapsed');
+
+						// Treating d-flex/d-none on separators with title
+						var SeparatorTitle = $('.sidebar-separator-title');
+						if ( SeparatorTitle.hasClass('d-flex') ) {
+								SeparatorTitle.removeClass('d-flex');
+						} else {
+								SeparatorTitle.addClass('d-flex');
+						}
+
+						// Collapse/Expand icon
+						$('#collapse-icon').toggleClass('fa-angle-double-left fa-angle-double-right');
+				}
+		</script>
+		<script>
+			$(document).ready(function(){
+			  // Add smooth scrolling to all links
+			  $("a").on('click', function(event) {
+
+			    // Make sure this.hash has a value before overriding default behavior
+			    if (this.hash !== "") {
+			      // Prevent default anchor click behavior
+			      event.preventDefault();
+
+			      // Store hash
+			      var hash = this.hash;
+
+			      // Using jQuery's animate() method to add smooth page scroll
+			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+
+			        // Add hash (#) to URL when done scrolling (default click behavior)
+			        window.location.hash = hash;
+			      });
+			    } // End if
+			  });
+			});
+		</script>
+		<script>
+			$(window).on('resize', function() {
+				if ($(this).width() < 514) {
+					$('nav').addClass('sticky-top')
+				} else {
+					$('nav').removeClass('sticky-top')
+				}
+			});
+		</script>
+  </body>
+</html>
